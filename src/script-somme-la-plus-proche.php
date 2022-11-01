@@ -1,0 +1,9 @@
+<?php
+$a=readline();
+$c=0;
+$b=0;
+while($c<=$a){
+    $c=$b+$c;
+    $b=$b+1;
+}
+echo("###$c###");
