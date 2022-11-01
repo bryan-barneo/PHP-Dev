@@ -2,12 +2,9 @@
 require('procedure-repeteCarac.php');
 function pyramideSimple(int $n, string $car): void
 {
-    $c = $n;
-    $n = 1;
-    echo ' ';
-    for ($i = 0; $i < $c; $i++) {
-        repeteCarac($n, $car);
-        echo "\na";
-        $n = $n + 2;
+    for($i=0; $i<$n; $i++){
+        repeteCarac($n -$i," ");
+        repeteCarac($i * 2+1, $car);
+        echo "\n";
     }
 }

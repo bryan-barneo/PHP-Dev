@@ -1,5 +1,5 @@
 <?php
 $n=readline();
 $car=fgetc(STDIN);
-require('procedure-pyramideSimple.php');
-pyramideSimple($n, $car);
+require('procedure-repeteCarac.php');
+repeteCarac($n, $car);
