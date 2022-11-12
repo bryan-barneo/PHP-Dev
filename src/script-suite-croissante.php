@@ -2,7 +2,9 @@
 $a=readline();
 $b=0;
 $d=0;
-for($i=0; $i<$a; $i++){
+$i=0;
+while($i<$a){
+    $i++;
     $c=readline();
     if($c<$b){
         $d=$d+1;
